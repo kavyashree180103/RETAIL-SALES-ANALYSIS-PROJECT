@@ -1,0 +1,12 @@
+
+SELECT 
+    PRODUCTCODE,
+    PRODUCTLINE,
+    SUM(QUANTITYORDERED) AS TotalQty,
+    SUM(SALES) AS TotalSales,
+    SUM(SALES - (QUANTITYORDERED * MSRP * 0.6)) AS TotalProfit,
+   ROUND(AVG((SALES - (QUANTITYORDERED * MSRP * 0.6)) / SALES) * 100, 2) || '%' AS AvgProfitMarginPercent
+FROM sales
+GROUP BY PRODUCTCODE, PRODUCTLINE
+ORDER BY AvgProfitMarginPercent  DESC;
+
