@@ -4,7 +4,7 @@ Project Title: Retail Business Performance & Profitability Analysis
 
 Objective: Analyze retail sales data to identify profit-draining categories, understand seasonal trends, and support strategic decision-making.
 
-Technologies Used: Python (Pandas, Seaborn), SQL (SQLite), Power BI
+Technologies Used: Python (Pandas, matplotlib), SQL (SQLite), Power BI
 
 Dataset: 9000+ rows of transactional retail data including product, sales, and customer info
 
