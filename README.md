@@ -1,4 +1,5 @@
 RETAIL-SALES-ANALYSIS-PROJECT
+
 Project Title: Retail Business Performance & Profitability Analysis
 
 Objective: Analyze retail sales data to identify profit-draining categories, understand seasonal trends, and support strategic decision-making.
